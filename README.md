@@ -1,6 +1,9 @@
 # tsc-fault-useRecoilCallback
 
-This project is intended to demonstrate a fault in the TypeScript compiler.
+This project is intended to demonstrate a fault in the TypeScript compiler,
+reported [here in TypeScript issue 49966](
+https://github.com/microsoft/TypeScript/issues/49966
+).
 
 ### Instructions
 
