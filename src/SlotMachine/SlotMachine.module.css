@@ -1,0 +1,13 @@
+.slotMachine {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.dials {
+  display: flex;
+  gap: 1em;
+}
+
+.lever {
+}
