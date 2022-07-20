@@ -5,7 +5,7 @@ import { observablePool } from './recoil-appliation-store'
 import { getRandomSymbol } from './util'
 
 const useSetDial = () =>
-  useRecoilCallback(({ set }) => (i: number, nextSymbol: string) => {
+  useRecoilCallback((i: number) => ({ set }, nextSymbol: string) => {
     set(observablePool.instance(i), nextSymbol)
   })
 
